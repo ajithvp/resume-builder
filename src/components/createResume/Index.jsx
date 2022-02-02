@@ -15,13 +15,13 @@ class Index extends Component {
         super(props);
         this.state = {
             step: 1,
-            firstName: 'Ajith',
-            lastName: 'Vp',
-            email: 'ajithmangod@gmail.com',
-            address: 'Valiyaparambil House',
-            phone: '9747874509',
-            education: [{ institute: 'Lakshmi Narayana College', year: '2005', degree: 'BSc Mathematics' }],
-            experience: [{ company: 'Kraftlabs Technologies', year: '2014-2022', designation: 'Web Developer' }],
+            firstName: '',
+            lastName: '',
+            email: '',
+            address: '',
+            phone: '',
+            education: [{ institute: '', year: '', degree: '' }],
+            experience: [{ company: '', year: '', designation: '' }],
             skillOptions: ['php', 'mysql', 'python', 'react'],
             skills: []
         }
